@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Home | AI Grading System{% endblock %}
+
+{% block content %}
+  <h1 class="hero-title text-gradient">Intelligent AI Grading</h1>
+  <p class="hero-subtitle">Upload questions and let AI accurately analyze and evaluate student answers.</p>
+
+  <div class="cards-grid">
+    <!-- Faculty Card -->
+    <a href="{{ url_for('faculty_upload') }}" class="glass-card role-card">
+      <div class="icon"></div>
+      <h3>Faculty Portal</h3>
+      <p>Upload your question papers and configure the model answers.</p>
+      <span class="btn">Enter as Faculty</span>
+    </a>
+
+    <!-- Student Card -->
+    <a href="{{ url_for('student_upload') }}" class="glass-card role-card">
+      <div class="icon"></div>
+      <h3>Student Portal</h3>
+      <p>Submit written answers to be processed and evaluated instantly.</p>
+      <span class="btn">Enter as Student</span>
+    </a>
+  </div>
+{% endblock %}

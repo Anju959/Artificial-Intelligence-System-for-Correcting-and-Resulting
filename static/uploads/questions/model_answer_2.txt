@@ -1,0 +1,2 @@
+2. Block-level elements take full width and start on a new line, while inline elements take only
+necessary width and do not start on a new line.

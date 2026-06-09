@@ -1,0 +1,1 @@
+3. The <form> tag is used to collect user input and send it to a server for processing.

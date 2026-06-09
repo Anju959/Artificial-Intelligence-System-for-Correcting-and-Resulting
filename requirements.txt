@@ -1,0 +1,10 @@
+Flask
+Flask-SQLAlchemy
+PyMySQL
+cryptography
+Werkzeug
+pytesseract
+pdf2image
+Pillow
+scikit-learn
+PyMuPDF

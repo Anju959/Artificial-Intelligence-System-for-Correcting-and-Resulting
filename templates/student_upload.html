@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Student Upload | AI Grading System{% endblock %}
+
+{% block content %}
+<div class="glass-card" style="max-width: 540px; margin: 0 auto; width: 100%;">
+  <h2 class="hero-title text-gradient" style="font-size: 2.5rem;">Student Upload</h2>
+  <p class="hero-subtitle" style="margin-bottom: 2rem;">Submit your answer sheet for evaluation.</p>
+
+  <form action="" method="POST" enctype="multipart/form-data">
+    <div class="form-group">
+      <label class="form-label">Student ID / Roll Number</label>
+      <input type="text" class="form-control" name="student_id" required placeholder="e.g. 22C31A6701">
+    </div>
+
+    <div class="form-group" style="margin-top: 1.5rem;">
+      <label class="form-label">Upload Answer Sheet (PDF or Image)</label>
+      <input type="file" class="form-control" name="answer_file" required accept=".pdf,.png,.jpg,.jpeg">
+    </div>
+
+    <button type="submit" class="btn" style="margin-top: 2rem; width: 100%;">Submit for Grading</button>
+  </form>
+</div>
+{% endblock %}

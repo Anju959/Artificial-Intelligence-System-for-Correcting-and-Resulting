@@ -1,0 +1,2 @@
+5. Semantic HTML elements are tags that clearly describe their meaning, such as <header>,
+<section>, and <footer>, improving readability and SEO.

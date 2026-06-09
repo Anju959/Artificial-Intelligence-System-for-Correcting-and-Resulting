@@ -1,0 +1,2 @@
+1. HTML (HyperText Markup Language) is used to create the structure of web pages using
+elements like headings, paragraphs, links, and images.

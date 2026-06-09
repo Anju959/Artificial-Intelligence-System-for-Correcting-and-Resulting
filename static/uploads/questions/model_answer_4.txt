@@ -1,0 +1,2 @@
+4. <div> is a block-level element used for layout, while <span> is an inline element used for styling
+small parts of text.
